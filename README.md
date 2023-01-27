@@ -8,16 +8,6 @@
 
   <p align="center">
     Details and minutiae extractor of fingerprints
-    <br/>
-    <br/>
-    <a href="https://github.com/Valkam-Git/Dactilar"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/Valkam-Git/Dactilar">View Demo</a>
-    .
-    <a href="https://github.com/Valkam-Git/Dactilar/issues">Report Bug</a>
-    .
-    <a href="https://github.com/Valkam-Git/Dactilar/issues">Request Feature</a>
   </p>
 </p>
 
@@ -51,10 +41,6 @@ The project has been built with Java 9.
 ## Usage
 
 The project is quite straightforward to use, just download the repository and run it.
-
-### Creating A Pull Request
-
-
 
 ## License
 
