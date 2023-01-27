@@ -1,18 +1,73 @@
-# Dactilar
-Extractor de minucias de imágenes con el objetivo de hacer más fácil el reconocimiento de huellas dactilares.
+<br/>
+<p align="center">
+  <a href="https://github.com/Valkam-Git/Dactilar">
+    <img src="images/icon.png" alt="Logo" width="80" height="80">
+  </a>
 
-También realiza otras operaciones comunes como la transformación a blanco y negro, el umbralizado o un histograma, el programa muestra paso a paso cómo se va operando con la imágen para eliminar su ruido y realizar la detección de minucias.
+  <h3 align="center">Dactilar</h3>
+
+  <p align="center">
+    Details and minutiae extractor of fingerprints
+    <br/>
+    <br/>
+    <a href="https://github.com/Valkam-Git/Dactilar"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/Valkam-Git/Dactilar">View Demo</a>
+    .
+    <a href="https://github.com/Valkam-Git/Dactilar/issues">Report Bug</a>
+    .
+    <a href="https://github.com/Valkam-Git/Dactilar/issues">Request Feature</a>
+  </p>
+</p>
+
+![Contributors](https://img.shields.io/github/contributors/Valkam-Git/Dactilar?color=dark-green) ![Issues](https://img.shields.io/github/issues/Valkam-Git/Dactilar) ![License](https://img.shields.io/github/license/Valkam-Git/Dactilar) 
+
+## Table Of Contents
+
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Usage](#usage)
+* [License](#license)
+* [Authors](#authors)
+* [Acknowledgements](#acknowledgements)
+
+## About The Project
+
+![Screen Shot](https://user-images.githubusercontent.com/82890199/190621281-c7ebf692-099d-4f49-9ded-63a05f50b934.PNG)
+
+The project is focused on extracting minutiae out of fingerprint images by transforming them several times. It is even able to work on low quality images.
+
+Here's how:
+
+* The input image is converted to b/w and filtered to remove noise.
+* Zhang-Suen algorithm is applied in order to thin the fingerprint.
+* Minutiae are extracted by iteratively following a set of certain rules to detect them.
+
+## Built With
+
+The project has been built with Java 9.
+
+## Usage
+
+The project is quite straightforward to use, just download the repository and run it.
+
+### Creating A Pull Request
 
 
-![proofs](https://user-images.githubusercontent.com/82890199/190621281-c7ebf692-099d-4f49-9ded-63a05f50b934.PNG)
 
-Los resultados son mostrados al final de la ejecución y guardados en la carpeta Resultados.
+## License
 
-### Uso
-Se necesita tener Java instalado para ejecutar el programa, sencillamente introduce el siguiente comando:
+Distributed under the MIT License. See [LICENSE](https://github.com/Valkam-Git/Dactilar/blob/main/LICENSE.md) for more information.
 
-> java -jar Dactilar.jar
+## Authors
 
-### Creditos
- - A mi compañero de trabajo Javier Nieto Acero.
- - A RosettaStone por aportar los algoritmos en los que nos hemos basado.
+* **Valkam** - ** - [Valkam](https://github.com/Valkam-Git/) - **
+* **Javier Nieto Acero** - ** - [Javier Nieto Acero]() - **
+
+## Acknowledgements
+
+* [ShaanCoding](https://github.com/ShaanCoding/)
+* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
+* [ImgShields](https://shields.io/)
+* [RosettaCode](https://rosettacode.org)
