@@ -7,7 +7,7 @@
   <h3 align="center">Dactilar</h3>
 
   <p align="center">
-    Details and minutiae extractor of fingerprints
+    Fingerprint minutiae extractor
   </p>
 </p>
 
